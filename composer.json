@@ -1,6 +1,7 @@
 {
   "name": "texlab/texlab",
   "description": "The Texlab PHP framework",
+  "license": "MIT",
   "require": {
     "php": "^7.2",
     "texlab/mydb": "dev-master"
