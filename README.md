@@ -2,5 +2,5 @@
 
 ## Install
 ```
-$ composer create-project texlab/texlab:dev-master ProjectName
+composer create-project texlab/texlab:dev-master ProjectName
 ```
