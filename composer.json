@@ -1,5 +1,8 @@
 {
+  "name": "texlab/texlab",
+  "description": "The Texlab PHP framework",
   "require": {
+    "php": "^7.2",
     "texlab/mydb": "dev-master"
   },
   "autoload": {
