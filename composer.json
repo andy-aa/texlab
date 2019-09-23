@@ -2,9 +2,16 @@
   "name": "texlab/texlab",
   "description": "The Texlab PHP framework",
   "license": "MIT",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/andy-aa/route.git"
+    }
+  ],
   "require": {
     "php": "^7.2",
-    "texlab/mydb": "dev-master"
+    "texlab/mydb": "dev-master",
+    "texlab/route": "dev-master"
   },
   "autoload": {
     "psr-4": {
