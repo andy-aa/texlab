@@ -1,6 +1,7 @@
 {
   "name": "texlab/texlab",
   "description": "The Texlab PHP framework",
+  "type": "library",
   "license": "MIT",
   "repositories": [
     {
@@ -20,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Texlab\\Framework\\": "src",
+      "Texlab\\": "src",
       "App\\": "app/"
     }
   },

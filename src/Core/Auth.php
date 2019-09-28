@@ -1,6 +1,6 @@
 <?php
 
-namespace Texlab\Framework\Core;
+namespace Texlab\Core;
 
 
 class Auth

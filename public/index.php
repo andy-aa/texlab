@@ -1,6 +1,6 @@
 <?php
 
-use Texlab\Framework\Core\Router;
+use Texlab\Core\Router;
 
 session_start();
 

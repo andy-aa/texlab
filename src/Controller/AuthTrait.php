@@ -1,9 +1,9 @@
 <?php
 
-namespace Texlab\Framework\Controller;
+namespace Texlab\Controller;
 
 
-use Texlab\Framework\Core\Auth;
+use Texlab\Core\Auth;
 
 trait AuthTrait
 {

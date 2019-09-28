@@ -1,9 +1,9 @@
 <?php
 
-namespace Texlab\Framework\Controller;
+namespace Texlab\Controller;
 
 use ReflectionClass;
-use Texlab\Framework\View\ViewInterface;
+use Texlab\View\ViewInterface;
 
 abstract class AbstractController
 {

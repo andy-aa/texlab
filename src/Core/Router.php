@@ -1,11 +1,11 @@
 <?php
 
-namespace Texlab\Framework\Core;
+namespace Texlab\Core;
 
 //use Texlab\Framework\Controller\ErrorController;
 use App\Controller\ErrorController;
-use Texlab\Framework\View\View;
 use Texlab\Route\Dispatcher;
+use Texlab\View\View;
 
 class Router
 {
@@ -37,7 +37,7 @@ class Router
     {
         $decodeUri = $this->dispatcher->decodeUri($_SERVER['REQUEST_URI']);
 
-        if ($decodeUri !== null) {
+        if (!empty($decodeUri)) {
             $handler = explode('/', $decodeUri['handler']);
             $this->controllerName = $handler[0] . 'Controller';
             $this->actionName = 'action' . $handler[1];

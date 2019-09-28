@@ -1,6 +1,6 @@
 <?php
 
-namespace Texlab\Framework\View;
+namespace Texlab\View;
 
 class  View implements ViewInterface
 {

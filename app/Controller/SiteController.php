@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use Texlab\Framework\Controller\AbstractController;
+use Texlab\Controller\AbstractController;
 
 class  SiteController extends AbstractController
 {

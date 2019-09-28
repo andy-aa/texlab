@@ -1,6 +1,6 @@
 <?php
 
-namespace Texlab\Framework\Controller;
+namespace Texlab\Controller;
 
 
 class ErrorController extends AbstractController
