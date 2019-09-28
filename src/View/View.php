@@ -30,12 +30,12 @@ class  View implements ViewInterface
 //        echo '123'.$this->layout;
 //        var_dump($this);
 
-        include __DIR__ . "/../../$this->layout";
+        include "$this->layout";
     }
 
     public function body()
     {
         extract($this->viewData);
-        include __DIR__ . "/../../{$this->patternsPath}{$this->viewName}.php";
+        include "{$this->patternsPath}{$this->viewName}.php";
     }
 }
