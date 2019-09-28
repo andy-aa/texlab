@@ -6,16 +6,22 @@
     {
       "type": "git",
       "url": "https://github.com/andy-aa/route.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/andy-aa/mydb.git"
     }
   ],
   "require": {
     "php": "^7.2",
     "texlab/mydb": "dev-master",
-    "texlab/route": "dev-master"
+    "texlab/route": "dev-master",
+    "ext-json": "*"
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "Texlab\\Framework\\": "src",
+      "App\\": "app/"
     }
   },
   "config": {
